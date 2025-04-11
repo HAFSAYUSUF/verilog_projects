@@ -15,3 +15,15 @@ Cars[7] – Spot 7​
 
 The sum of these bits gives the total count of occupied spots, which is output through num.
 ![OUTPUT IN XILINX VIVADO](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20072841.png?raw=true)
+# car parking seven segment display in fpga board nexys
+This Verilog module, Car_parking_7_seg, is designed to monitor and display the number of occupied parking spots using a 7-segment display. It takes an 8-bit input representing the occupancy status of parking spots and outputs the count on a 7-segment display.
+Inputs:
+
+Cars [7:0]: Each bit represents a parking spot (1 for occupied, 0 for vacant).​
+
+Outputs:
+
+seg [6:0]: Controls the segments (a to g) of the 7-segment display.​
+
+AN [7:0]: Anode control signals for the display digits.
+![Alt text]("C:\Users\siniy\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 075127.png")
