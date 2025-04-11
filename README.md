@@ -49,5 +49,5 @@ Outputs:
 Z: Product dispense signal​
 
 change_given: Change return signal​
-![FSM_CHAART](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20075127.png?raw=true)
+![FSM_CHAART](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/graphviz%20(1).png?raw=true)
 
