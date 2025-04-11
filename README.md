@@ -26,4 +26,4 @@ Outputs:
 seg [6:0]: Controls the segments (a to g) of the 7-segment display.​
 
 AN [7:0]: Anode control signals for the display digits.
-![Alt text]("C:\Users\siniy\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 075127.png")
+![output]("Screenshot 2025-04-11 075127.png")
