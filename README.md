@@ -123,5 +123,5 @@ Opcode	Operation	Description
 101	Logical AND	Out_ALU = (A != 0 && B != 0) ? 1 : 0
 110	Logical OR	`Out_ALU = (A != 0
 111	Logical XOR	Out_ALU = ((A != 0) ^ (B != 0)) ? 1 : 0
-![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20163543.png?raw=true)
+![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20200005.png?raw=true)
 
