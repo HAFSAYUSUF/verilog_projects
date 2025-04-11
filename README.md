@@ -53,5 +53,45 @@ FSM CHART
 ![FSM_CHAART](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/graphviz%20(1).png?raw=true)
 OUTPUT
 ![FSM_CHAART](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20085507.png?raw=true)
+#VENDING MACHINE
+This project is a Verilog-based Finite State Machine (FSM) design for controlling a traffic light system. The FSM manages the traffic light cycles for four directions: North, South, East, and West. Each direction gets a green light for 16 cycles, followed by a yellow light for 4 cycles, and then transitions to the next direction in a round-robin fashion.
+Features
+# Four Directions: North, South, East, West.
 
+Green Light for 16 Cycles: After the green light period, the signal transitions to yellow.
+
+Yellow Light for 4 Cycles: Indicates preparation for transitioning to the next direction.
+
+FSM Design: Uses a finite state machine to control transitions between states.
+
+Reset Logic: The system can be reset to the initial state (north).
+# System Design
+The system has the following states and transitions:
+
+States:
+
+north (Green for North)
+
+north_yellow (Yellow for North)
+
+west (Green for West)
+
+west_yellow (Yellow for West)
+
+south (Green for South)
+
+south_yellow (Yellow for South)
+
+east (Green for East)
+
+east_yellow (Yellow for East)
+# State Transitions:
+
+Each direction gets a green light for 16 clock cycles.
+
+After the green light, the corresponding direction gets a yellow light for 4 clock cycles.
+
+The system then transitions to the next direction, and this cycle repeats.
+
+Reset Logic: The system starts at the north state, and upon reset, all states and counts are initialized to the north state with the count set to 0.
 
