@@ -95,5 +95,5 @@ The system then transitions to the next direction, and this cycle repeats.
 
 Reset Logic: The system starts at the north state, and upon reset, all states and counts are initialized to the north state with the count set to 0.
 ![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/graphviz%20(2).png?raw=true)
-![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/graphviz%20(2).png?raw=true)
+![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20163543.png?raw=true)
 
