@@ -14,4 +14,4 @@ Cars[1] – Spot 1​
 Cars[7] – Spot 7​
 
 The sum of these bits gives the total count of occupied spots, which is output through num.
-![OUTPUT IN XILINX VIVADO](image-url)
+![OUTPUT IN XILINX VIVADO](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20072841.png?raw=true)
