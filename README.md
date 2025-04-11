@@ -27,3 +27,27 @@ seg [6:0]: Controls the segments (a to g) of the 7-segment display.​
 
 AN [7:0]: Anode control signals for the display digits.
 ![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20075127.png?raw=true)
+# Vending machine
+Module Name: Vending_machine​
+
+Inputs:
+
+clk: Clock signal​
+
+reset: Asynchronous reset signal​
+
+coin [1:0]: 2-bit input representing inserted coin​
+
+2'b00: Rs. 10
+
+2'b01: Rs. 20
+
+2'b10: Rs. 50
+
+Outputs:
+
+Z: Product dispense signal​
+
+change_given: Change return signal​
+![FSM_CHAART](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20075127.png?raw=true)
+
