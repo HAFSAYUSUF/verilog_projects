@@ -96,4 +96,32 @@ The system then transitions to the next direction, and this cycle repeats.
 Reset Logic: The system starts at the north state, and upon reset, all states and counts are initialized to the north state with the count set to 0.
 ![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/graphviz%20(2).png?raw=true)
 ![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20163543.png?raw=true)
+# 8 bit ALU
+This Verilog module implements an 8-bit Arithmetic Logic Unit (ALU) capable of performing various arithmetic and logical operations based on a 3-bit opcode input. The ALU supports operations such as addition, subtraction, multiplication, bitwise shifts, and logical comparisons.​
+
+Module Interface
+Inputs
+A (8 bits): First operand.​
+
+B (8 bits): Second operand.​
+
+Opcode (3 bits): Operation selector determining the function to perform.​
+
+Outputs
+Out_ALU (16 bits): Result of the selected operation.​
+
+Carry_out (1 bit): Indicates a carry or borrow in arithmetic operations.​
+Medium
+
+Supported Operations
+Opcode	Operation	Description
+000	Addition	Out_ALU = A + B
+001	Subtraction	Out_ALU = A - B
+010	Multiplication	Out_ALU = A * B
+011	Shift Left	Out_ALU = A << 1
+100	Shift Right	Out_ALU = A >> 1
+101	Logical AND	Out_ALU = (A != 0 && B != 0) ? 1 : 0
+110	Logical OR	`Out_ALU = (A != 0
+111	Logical XOR	Out_ALU = ((A != 0) ^ (B != 0)) ? 1 : 0
+![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20163543.png?raw=true)
 
