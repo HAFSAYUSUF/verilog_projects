@@ -26,4 +26,4 @@ Outputs:
 seg [6:0]: Controls the segments (a to g) of the 7-segment display.​
 
 AN [7:0]: Anode control signals for the display digits.
-![output]("https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20075127.png?raw=true")
+![OUTPUT](https://github.com/HAFSAYUSUF/verilog_projects/blob/main/Screenshot%202025-04-11%20075127.png?raw=true)
